@@ -55,7 +55,7 @@
   object-fit: cover;
   object-position: center;
   transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Transiciones */
-  transform: translateY(250%); /* Comienza fuera de la vista abajo */
+  transform: translateY(300%); /* Comienza fuera de la vista abajo */
   animation: pic 2s linear forwards;
   animation-delay: 3.5s;
 }
