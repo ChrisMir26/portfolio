@@ -115,9 +115,17 @@
 
 @media (max-width: 400px){
   
-  .portfolio-img {
+  .portfolio-img-div {
     width: 90%;
-    height: 75%;}
+    margin: 1rem 0;
+    height: 70%;}
+
+
+    .portfolio-img {
+
+      transform: translateY(400%); /* Comienza fuera de la vista abajo */
+     
+    }
 }
 
 
