@@ -1,6 +1,7 @@
 import './index.scss'
 import picCountries from '../../assets/images/countries.jpeg'
 import dreamLodge from '../../assets/images/dreamLodge.jpeg'
+import amazon from '../../assets/images/amazon.jpeg'
 import {Loader} from "react-loaders"
 
 
@@ -24,6 +25,16 @@ const Project = () => {
           <img src={dreamLodge} alt="project Pic" className="portfolio-img" />
           </a>
         </div>
+        
+      </div>
+      <div className="portfolio-section portfolio-third">
+        <div className="portfolio-img-div">
+        <a href="https://amazon-clone-lyart-ten.vercel.app/" target="_blank" rel="noopener noreferrer">
+
+          <img src={amazon} alt="project Pic" className="portfolio-img" />
+          </a>
+        </div>
+        
       </div>
       </div>
       <Loader type="pacman"/>
