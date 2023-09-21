@@ -1,0 +1,146 @@
+.div-form {
+  margin-left: 20%;
+  width: 500px;
+}
+.contact-form {
+  width: 100%;
+  margin-top: 40px;
+
+  ul {
+    padding: 0;
+    margin: 0;
+
+    li {
+      padding: 0;
+      margin: 0;
+      list-style: none;
+      margin-bottom: 10px;
+      overflow: hidden;
+      display: block;
+      position: relative;
+      opacity: 0;
+      animation: fadeInUp 2s 4.6s;
+      animation-fill-mode: forwards;
+    }
+    .subject {
+      width: 100%;
+    }
+
+    .half {
+      width: 49%;
+      margin-left: 2%;
+      float: left;
+      clear: none;
+
+      &:first-child {
+        margin-left: 0;
+      }
+    }
+  }
+  input[type='text'],
+  input[type='email'] {
+    width: 100%;
+    border: 0;
+    background-color: #115173;
+    height: 50px;
+    font-size: 16px;
+    color: #fff;
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
+
+  textarea {
+    width: 100%;
+    border: 0;
+    background-color: #115173;
+    height: 50px;
+    font-size: 16px;
+    color: #fff;
+    padding: 20px;
+    min-height: 150px;
+    box-sizing: border-box;
+  }
+
+  .flat-button {
+    color: #ffd700;
+    background: 0 0;
+    font: 11px;
+    letter-spacing: 3px;
+    text-decoration: none;
+    padding: 8px 10px;
+    border: 1px solid #ffd700;
+    width: 50%;
+    margin-left: 25%;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 2rem;
+
+    &:hover {
+      background: #ffd700;
+      color: #333;
+    }
+  }
+}
+.info-map {
+  position: fixed;
+  background-color: #000;
+  top: -48px;
+  right: 642px;
+  z-index: 999999;
+  width: 280px;
+  padding: 20px;
+  color: #fff;
+  font-family: 'Helvetica';
+  font-size: 17px;
+  font-weight: 300;
+  opacity: 0;
+  animation: fadeIn 1s 1.5s;
+  animation-fill-mode: forwards;
+
+  span {
+    font-size: 16px;
+    display: block;
+    padding-top: 20px;
+    color: #ffd700;
+  }
+}
+
+.map-wrap {
+  background: rgba(3, 253, 216, 0.1);
+  float: right;
+  width: 50%;
+  height: 100vh;
+  margin-top: -51px;
+}
+.map-wrap iframe {
+  width: 100%;
+  height: 100%;
+}
+
+///////////////////////////////QUERYES///////////////////////////////
+///////////////////////////////QUERYES///////////////////////////////
+///////////////////////////////QUERYES///////////////////////////////
+
+@media (max-width: 1500px) {
+  .contact-page {
+    .text-zone {
+      width: 50%;
+
+      h1 {
+        font-size: calc(
+          5vw + 1em
+        ); /* Ajusta el tamaño de fuente para pantallas más pequeñas */
+      }
+    }
+  }
+}
+
+@media (max-width: 390px) {
+    .contact-page {
+      .text-zone {
+       margin-top: -50px;
+  
+        
+      }
+    }
+  }
