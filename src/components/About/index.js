@@ -9,37 +9,32 @@
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import './index.scss'
 import { Loader } from 'react-loaders'
-import profilePic from "../../assets/images/profilPic.jpeg"
+import profilePic from '../../assets/images/profilPic.jpeg'
 
 const About = () => {
   // El segundo argumento vacío [] asegura que esto solo se ejecute una vez
 
   return (
-    <div className="container about-page"> 
+    <div className="container about-page">
       <div className="text-zone">
         <h1>About Me</h1>
         <p>
-          I code the front-end with finesse, Crafting interfaces, no less. But
-          deep within the server's core, I tackle challenges, seek for more.
+          After a decade of backpacking and exploring diverse cultures, I
+          discovered my passion for programming and chose a career in web
+          development. I refined my skills at the Soy Henry Bootcamp and have
+          experience with technologies like JavaScript, React, Node, and more.
         </p>
         <p>
-          From databases to UI's grace, In the tech world, I find my place. With
-          stacks and frameworks, I am adept, A Full Stack Developer, fully
-          equipped.
+          I’m committed to team success and am seeking a position to apply my
+          skills and grow professionally. My goal is to contribute to and grow
+          with a company that values service and potential.
         </p>
-        <p>
-          From databases to UI's grace, In the tech world, I find my place. With
-          stacks and frameworks, I am adept, A Full Stack Developer, fully
-          equipped.
-        </p>
+       
       </div>
 
-    <div className='profilDiv'>
-
-      <img src={profilePic} alt=""/>
-
-    </div>
-     
+      <div className="profilDiv">
+        <img src={profilePic} alt="" />
+      </div>
 
       <Loader type="pacman" />
     </div>
@@ -48,9 +43,8 @@ const About = () => {
 
 export default About
 
-
-
-{/* <div className="stage-cube-cont">
+{
+  /* <div className="stage-cube-cont">
 <div className="cubespinner">
   <div className="face1">
     <FontAwesomeIcon icon={faGitAlt} color="#ec4d28" />
@@ -71,4 +65,5 @@ export default About
     <FontAwesomeIcon icon={faNodeJs} color="#69a05b" />
   </div>
 </div>
-</div> */}
+</div> */
+}

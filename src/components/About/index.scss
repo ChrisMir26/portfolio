@@ -83,19 +83,21 @@
 }
 
 .profilDiv {
-  width: 50%; /* Ancho igual a la mitad del alto para crear un círculo */
-  height: 80%;
+  width: 45%; /* Ancho igual a la mitad del alto para crear un círculo */
+  height: 70%;
   // position: absolute;
   // top: 50px;
   // left: 1000px;
   float: right;
+  margin-top: 6rem;
 
   border-radius: 100%; /* Utiliza 50% para crear un círculo */
 }
 
 .profilDiv img {
-  width: 75%; /* Asegura que la imagen ocupe todo el círculo */
-  height: 90%;
+  width: 60%; /* Asegura que la imagen ocupe todo el círculo */
+  height: 75%;
+ 
   margin-top: 5%;
   object-fit: cover; /* Ajusta la imagen para que cubra todo el círculo */
   object-position: center;
@@ -121,6 +123,7 @@
     
     margin-top: 6%;
     margin-left: 2%;
+    width: 50%;
     
 
   }
@@ -138,6 +141,11 @@
 
 
 @media (max-width: 1200px) {
+  .profilDiv img {
+    width: 500px; /* Asegura que la imagen ocupe todo el círculo */
+    height: 500px;
+  
+  }
   .stage-cube-cont {
     display: flex;
     justify-content: center;

@@ -1,5 +1,5 @@
 import "./index.scss"
-import LogoTitle from "../../assets/images/logo-s.png"
+import cBlue from "../../assets/images/Cblue.jpeg"
 import { Link } from "react-router-dom"
 import {Loader} from "react-loaders"
 import { faCss3, faGitAlt, faHtml5, faJsSquare, faNodeJs, faReact} from '@fortawesome/free-brands-svg-icons'
@@ -14,12 +14,11 @@ return(
     <div className="container home-page">
         <div className="text-zone">
             <h1>Hi,  <br/> I'm {" "}
-            <img src={LogoTitle} alt="developer"/>
             Christian
             <br/>
             Full Stack Developer
             </h1>
-        <h2>Javascript | Node js | React Redux</h2>
+        <h2>Javascript | Node | Express | React | MongoDB </h2>
         <Link to="contact" className="flat-button">CONTACT ME</Link>
         </div>
 

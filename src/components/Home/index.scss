@@ -22,11 +22,13 @@
 
 
   img{
-    width: 32px;
+    width: 50px;
+    margin: 0 0.6rem;
     opacity: 0;
     height: auto;
     animation: rotateIn 1s linear both;
     animation-delay: 1s;
+    border-radius: 5px;
 
   }
   }

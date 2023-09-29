@@ -23,12 +23,15 @@ const Project = () => {
                 className="portfolio-img"
               />
             </a>
+            <div className="project-description">
+            <p>Descripción del proyecto CountriesPI</p>
+          </div>
           </div>
         </div>
         <div className="portfolio-section portfolio-second">
           <div className="portfolio-img-div">
             <a
-              href="https://dreamlodgeprueba.web.app/"
+              href="https://dreamlodgeprueba.firebaseapp.com/home"
               target="_blank"
               rel="noopener noreferrer"
             >
