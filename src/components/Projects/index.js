@@ -1,3 +1,4 @@
+import { useEffect,useState } from 'react'
 import './index.scss'
 import picCountries from '../../assets/images/countries.jpeg'
 import dreamLodge from '../../assets/images/dreamLodge.jpeg'
@@ -5,6 +6,18 @@ import amazon from '../../assets/images/amazon.jpeg'
 import { Loader } from 'react-loaders'
 
 const Project = () => {
+  const [isMounted, setIsMounted] = useState(false);
+
+
+  useEffect(() => {
+    const timerId = setTimeout(() => {
+      setIsMounted(true);
+      console.log(isMounted) // Esto se ejecuta antes de que se complete la actualización del estado.
+    }, 6000);
+  
+    return () => clearTimeout(timerId);
+  }, []);
+  
   return (
     <div className="portoflioDivs">
       <h1>Portfolio</h1>
@@ -22,7 +35,7 @@ const Project = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <div className="project-description">
+              <div className={`project-description ${isMounted ? 'loaded' : ''}`}>
                 <p>
                   Developed a Full Stack Single Page Application. Utilized
                   React, Redux, and CSS for FrontEnd. BackEnd built with NodeJS,
@@ -42,7 +55,10 @@ const Project = () => {
             </a>
           </div>
         </div>
+
+        
         <div className="portfolio-section portfolio-second">
+          
           <div className="portfolio-img-div">
             <img src={dreamLodge} alt="project Pic" className="portfolio-img" />
             <a
@@ -50,7 +66,7 @@ const Project = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <div className="project-description">
+              <div className={`project-description ${isMounted ? 'loaded' : ''}`}>
                 <p>
                   DreamLodge is an app to rent a temporary rental and also gives
                   you the option to become an owner. It was my final project of
@@ -77,7 +93,7 @@ const Project = () => {
               rel="noopener noreferrer"
             >
               <img src={amazon} alt="project Pic" className="portfolio-img" />
-              <div className="project-description">
+              <div className={`project-description ${isMounted ? 'loaded' : ''}`}>
                 <p>
                   This is a concise Amazon clone focusing primarily on rendering
                   product cards, user creation, and payment processing. It was
