@@ -36,7 +36,7 @@ const Project = () => {
               rel="noopener noreferrer"
             >
               <div className={`project-description ${isMounted ? 'loaded' : ''}`}>
-                <p>
+                <p >
                   Developed a Full Stack Single Page Application. Utilized
                   React, Redux, and CSS for FrontEnd. BackEnd built with NodeJS,
                   fetching data from an API using Express. Features include:
@@ -67,14 +67,13 @@ const Project = () => {
               rel="noopener noreferrer"
             >
               <div className={`project-description ${isMounted ? 'loaded' : ''}`}>
-                <p>
+                <p >
                   DreamLodge is an app to rent a temporary rental and also gives
                   you the option to become an owner. It was my final project of
-                  my degree at henry. 5 people participated and we widely
+                  my degree at henry. Five people participated and we widely
                   achieved the expected results.DreamLodge is an app to rent a
                   temporary rental and also gives you the option to become an
-                  owner. It was my final project of my degree at henry. 5 people
-                  participated and we widely achieved the expected results.
+                  owner.
                   <br />
                   <span className="portfolio-span">
                     Skills: Communication · Firebase · Teamwork · Problem
