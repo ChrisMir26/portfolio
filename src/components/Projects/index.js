@@ -78,11 +78,18 @@ const Project = () => {
             >
               <img src={amazon} alt="project Pic" className="portfolio-img" />
               <div className="project-description">
-              <p>
-  This is a concise Amazon clone focusing primarily on rendering product cards, user creation, and payment processing. It was crafted using advanced technologies like React.js, Next.js, and Tailwind CSS, highlighting the ability to develop feature-rich, user-friendly applications.<br/>
-  <span className="portfolio-span">Skills: React.js · Next.js · Tailwind CSS · User Experience Design</span>
-</p>
-
+                <p>
+                  This is a concise Amazon clone focusing primarily on rendering
+                  product cards, user creation, and payment processing. It was
+                  crafted using advanced technologies like React.js, Next.js,
+                  and Tailwind CSS, highlighting the ability to develop
+                  feature-rich, user-friendly applications.
+                  <br />
+                  <span className="portfolio-span">
+                    Skills: React.js · Next.js · Tailwind CSS · User Experience
+                    Design
+                  </span>
+                </p>
               </div>
             </a>
           </div>
