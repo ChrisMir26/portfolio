@@ -95,16 +95,16 @@
 }
 
 .profilDiv img {
-  width: 60%; /* Asegura que la imagen ocupe todo el círculo */
-  height: 75%;
+  width: 550px; /* Asegura que la imagen ocupe todo el círculo */
+  height: 550px;
  
   margin-top: 5%;
   object-fit: cover; /* Ajusta la imagen para que cubra todo el círculo */
   object-position: center;
   border-radius: 100%; /* Utiliza 50% para crear un círculo */
-  box-shadow: 8px 10px 20px 2px rgba(255, 215, 0, 0.5);
-  -webkit-box-shadow: 8px 10px 20px 2px rgba(255, 215, 0, 0.5);
-  -moz-box-shadow: 8px 10px 20px 2px rgba(255, 215, 0, 0.5);
+  box-shadow: 8px 10px 20px 2px rgba(255, 215, 0, 0.2); /* Menor opacidad */
+  -webkit-box-shadow: 8px 10px 20px 2px rgba(255, 215, 0, 0.2); /* Menor opacidad */
+  -moz-box-shadow: 8px 10px 20px 2px rgba(255, 215, 0, 0.2); /* Menor opacidad */
   animation: rotateIn 2s linear both;
   animation-delay: 3s;
 }
@@ -121,18 +121,16 @@
   .profilDiv {
 
     
-    margin-top: 6%;
-    margin-left: 2%;
-    width: 50%;
-    
+    // margin-top: 6%;
+    // margin-left: 2%;
+    // width: 50%;
+    text-align: center;
+    display: flex;
+    align-items: center;
 
   }
 
-  .profilDiv img {
-    width: 70%; /* Asegura que la imagen ocupe todo el círculo */
-    height: 70%;
   
-  }
   
 }
 
