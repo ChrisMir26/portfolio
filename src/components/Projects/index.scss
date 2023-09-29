@@ -57,7 +57,7 @@
   border-radius: 5px;
   object-position: center;
   transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Transiciones */
-  transform: translateY(400%); /* Comienza fuera de la vista abajo */
+  transform: translateY(1500px); /* Comienza fuera de la vista abajo */
   animation: pic 2s linear forwards;
   animation-delay: 3.5s;
 }
@@ -232,6 +232,11 @@
               font-size: 10px;
         
         
+            }
+            .portfolio-img {
+             
+              transform: translateY(1000px); /* Comienza fuera de la vista abajo */
+             
             }
             .portoflioDivs.loaded .portfolio-img {
               transform: translateY(
